@@ -1,23 +1,42 @@
-# KUROSHIO - шаблон ресторана на Vue
+```markdown
+# KUROSHIO - шаблон сайта японского ресторана на Vue
 
-Шаблон для сайта ресторана на Vue 3 + Vite.
+Vue 3, Vite, Vue Router, Vuex
+```
 
-## Рекомендуемые настройки IDE
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
+```markdown
+# Демо-версия сайта ( GitHub Pages )
 
-## Установка проекта
-```sh
-npm install
+https://anchekh.github.io/KUROSHIO/
 ```
-## Запуск разработки
-```sh
-npm run dev
+
+```markdown
+# Особенности
+
+- Система заказов с корзиной
+- Валидация форм
+- Анимации
 ```
-## Сборка для production
-```sh
-npm run build
+
+```markdown
+# Установка проекта
+
+1. Клонирование репозитория
+# git clone https://github.com/anchekh/KUROSHIO.git
+
+2. Установка зависимостей
+# npm install
+
+3. Запуск сервера разработки
+# npm run dev ( доступная ссылка - http://localhost:5173 )
+
+4. Сборка для production
+# npm run build
+
+5. Превью сборки
+# npm run preview
 ```
-## Превью сборки
-```sh
-npm run preview
+
+```markdown
+# Проект находится на стадии разработки - некоторые функции могут быть не доработаны.
 ```
