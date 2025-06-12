@@ -1,29 +1,23 @@
-# vue-rest
+# KUROSHIO - шаблон ресторана на Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Шаблон для сайта ресторана на Vue 3 + Vite.
 
-## Recommended IDE Setup
+## Рекомендуемые настройки IDE
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+## Установка проекта
 ```sh
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
+## Запуск разработки
 ```sh
 npm run dev
 ```
-
-### Compile and Minify for Production
-
+## Сборка для production
 ```sh
 npm run build
+```
+## Превью сборки
+```sh
+npm run preview
 ```
