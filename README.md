@@ -1,29 +1,42 @@
-# vue-rest
+```markdown
+# KUROSHIO - шаблон сайта японского ресторана на Vue (САЙТ НЕ АДАПТИВНЫЙ!)
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+Vue 3, Vite, Vue Router, Vuex
 ```
 
-### Compile and Hot-Reload for Development
+```markdown
+# Демо-версия сайта ( GitHub Pages )
 
-```sh
-npm run dev
+https://anchekh.github.io/KUROSHIO/
 ```
 
-### Compile and Minify for Production
+```markdown
+# Особенности
 
-```sh
-npm run build
+- Система заказов с корзиной
+- Валидация форм
+- Анимации
+```
+
+```markdown
+# Установка проекта
+
+1. Клонирование репозитория
+# git clone https://github.com/anchekh/KUROSHIO.git
+
+2. Установка зависимостей
+# npm install
+
+3. Запуск сервера разработки
+# npm run dev ( доступная ссылка - http://localhost:5173 )
+
+4. Сборка для production
+# npm run build
+
+5. Превью сборки
+# npm run preview
+```
+
+```markdown
+# Проект находится на стадии разработки - некоторые функции могут быть не доработаны.
 ```
