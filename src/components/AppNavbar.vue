@@ -79,7 +79,8 @@ export default {
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 120px;
+    font-size: 24px;
     background: #0E0E0E;
     display: flex;
     justify-content: space-between;
@@ -110,12 +111,13 @@ export default {
     padding: 0;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    height: 120px;
+    font-size: 24px;
     text-align: center;
 }
 
 .menu-item {
-    width: 100px;
+    width: 150px;
     padding: 0;
 }
 
@@ -128,8 +130,10 @@ export default {
     margin-right: 10px;
 }
 
-/* .cart-svg {
-} */
+.cart-svg {
+    width: 30px;
+    height: 30px;
+}
 
 .router-link-active,
 .router-link-exact-active

@@ -142,13 +142,13 @@ html, body {
     padding-top: calc(80px + 20px);
     margin-left: 80px;
     font-weight: normal;
-    font-size: 34px;
+    font-size: 46px;
 }
 
 .sector-subtitle {
     margin-left: 80px;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 32px;
     color: #5F8484;
 }
 
@@ -163,8 +163,8 @@ html, body {
 }
 
 .special {
-    width: 400px;
-    height: 380px;
+    width: 600px;
+    height: 580px;
     border: 2px solid #5F8484;
     border-radius: 24px;
     text-align: justify;
@@ -177,17 +177,17 @@ html, body {
 }
 
 .special-title {
-    font-size: 16px;
+    font-size: 28px;
     margin-left: 10px;
 }
 
 .special-description {
-    font-size: 10px;
+    font-size: 16px;
     margin: 10px;
 }
 
 .special-price {
-    font-size: 14px;
+    font-size: 24px;
     margin-left: 10px;
     color: #5F8484;
 }
@@ -198,28 +198,29 @@ html, body {
     align-items: center;
     margin-top: 10px;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
 }
 
 .special-btn {
-    width: 150px;
-    height: 40px;
+    width: 250px;
+    height: 54px;
+    font-size: 20px;
     /* margin-left: 10px; */
-    font-size: 14px;
     color: #5F8484;
 }
 
 .special-add-to-order {
     display: flex;
-    font-size: 14px;
+    font-size: 20px;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
 .special-add-to-order-btn {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
     color: #5F8484;
     border-radius: 14px !important;
 }
@@ -236,7 +237,7 @@ button {
     margin-right: 80px;
     margin-top: 20px;
     text-align: justify;
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .about-imgs {
@@ -252,8 +253,8 @@ button {
 .about-img {
     border: 2px solid #5F8484;
     border-radius: 10px;
-    width: 300px;
-    height: 140px;
+    width: 500px;
+    height: 280px;
     background-size: cover;
 }
 

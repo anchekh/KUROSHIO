@@ -120,19 +120,6 @@ export default {
 </script>
 
 <style>
-.spinner-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(12, 12, 12, 0.6);
-  z-index: 10;
-}
-
 .product-img {
   position: relative;
 }
@@ -192,17 +179,19 @@ export default {
   width: auto;
   display: grid;
   grid-template-columns: repeat(5, auto);
-  gap: 10px;
+  gap: 14px;
 }
 
 .product-item {
-  width: 210px;
-  height: 244px;
+  width: 340px;
+  height: 340px;
   background-color: #151515;
   /* border: 2px solid #5F8484; */
   border-radius: 12px;
   transition: all 0.3s ease;
   box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
 }
 
 .product-item:hover {
@@ -215,11 +204,6 @@ export default {
   width: 100%;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-}
-
-.product-item {
-  position: relative;
-  overflow: hidden;
 }
 
 .product-img {
@@ -238,7 +222,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 10px;
+  font-size: 16px;
   text-align: justify;
   align-items: center;
   justify-content: center;
@@ -264,13 +248,13 @@ export default {
 }
 
 .product-title {
-  font-size: 13px;
+  font-size: 18px;
   margin-left: 5px;
   margin-top: 5px;
 }
 
 .product-price {
-  font-size: 12px;
+  font-size: 16px;
   margin-left: 5px;
   margin-top: 5px;
   color: #5F8484;
@@ -285,7 +269,6 @@ export default {
   width: 100%;
   height: 50px;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
 }
 
@@ -300,11 +283,12 @@ export default {
 
 .add-to-order-btn {
   /* margin-top: 8px; */
-  width: 180px;
-  height: 34px;
+  width: 220px;
+  height: 44px;
   color: #FFF;
   background-color: #5F8484;
   border-radius: 50px;
+  font-size: 16px;
 }
 
 button {
@@ -316,5 +300,18 @@ button {
 .category-item.active {
   color: #5F8484;
   /* font-weight: bold; */
+}
+
+.spinner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(12, 12, 12, 0.6);
+  z-index: 10;
 }
 </style>

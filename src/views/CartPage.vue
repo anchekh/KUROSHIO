@@ -5,7 +5,7 @@
       <div v-for="item in cartItems" :key="item.id" class="cart-item">
         <div class="cart-item-left-part">
           <div class="cart-item-img">
-            <img :src="item.image" :alt="item.title" style="width: 100px; height: 100px; object-fit: cover; border-radius: 14px;">
+            <img :src="item.image" :alt="item.title" style="width: 140px; height: 140px; object-fit: cover; border-radius: 14px;">
           </div>
         </div>
         <div class="cart-item-right-part">
@@ -194,12 +194,16 @@ export default {
 <style>
 .cart-page {
   display: flex;
+  width: 1680px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
 }
 
 .cart-items {
-  margin-top: calc(60px + 20px);
-  margin-left: calc(60px + 20px);
-  width: 520px;
+  margin-top: calc(120px + 20px);
+  margin-left: calc(120px + 20px);
+  width: 900px;
   height: auto;
   overflow: auto;
   /* background-color: #1E1E1E; */
@@ -209,13 +213,13 @@ export default {
   overflow-x: auto;
   scrollbar-width: thin;
   scrollbar-color: white #0E0E0E;
-  min-height: 440px;
-  max-height: 440px;
+  min-height: calc(160px * 3 + 20px);
+  max-height: calc(160px * 3 + 20px);
 }
 
 .cart-item {
-  width: 500px;
-  height: 140px;
+  width: 800px;
+  height: 160px;
   background-color: #1E1E1E;
   border-radius: 14px;
   margin-bottom: 10px;
@@ -224,26 +228,27 @@ export default {
 
 .cart-item-left-part {
   display: flex;
-  width: 140px;
+  width: 180px;
   height: 140px;
   align-items: center;
   justify-content: center;
 }
 
 .cart-item-right-part {
-  width: calc(500px - 140px);
+  width: calc(800px - 140px);
   height: 140px;
   margin-top: 20px;
 }
 
 .cart-item-title-and-delete {
   display: flex;
-  width: calc(500px - 140px);
+  width: calc(800px - 140px);
 }
 
 .cart-item-title {
-  font-size: 16px;
-  width: calc(500px - 140px - 20px);
+  font-size: 24px;
+  width: calc(800px - 140px - 20px);
+  padding-left: 20px;
 }
 
 .cart-item-delete {
@@ -259,20 +264,23 @@ export default {
 }
 
 .cart-item-description {
-  font-size: 9px;
+  font-size: 12px;
   text-align: justify;
   margin-right: 20px;
   margin-top: 14px;
+  padding-left: 20px;
 }
 
 .cart-item-counter-and-sum {
   display: flex;
-  width: calc(500px - 140px);
+  width: calc(800px - 140px);
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .cart-item-counter, .cart-item-sum {
   font-size: 16px;
-  width: calc((500px - 140px) / 2);
+  width: calc((800px - 140px) / 2);
   margin-top: 14px;
 }
 
@@ -284,13 +292,13 @@ export default {
 }
 
 .cart-item-sum {
-  margin-right: 20px;
+  margin-right: 40px;
   text-align: end;
 }
 
 .cart-item-img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 14px;
 }
 
@@ -302,39 +310,41 @@ export default {
 }
 
 .sum-container-txt {
-  width: 500px;
+  width: 800px;
+  font-size: 20px;
 }
 
 .sum-container-sum {
-  width: 500px;
+  width: 800px;
   text-align: end;
-  margin-right: 20px;
+  margin-right: 40px;
+  font-size: 20px;
 }
 
 .buyer-info {
-  margin-top: calc(60px + 20px);
+  margin-top: calc(120px + 20px);
   margin-left: 10px;
-  width: 600px;
+  width: 700px;
   height: auto;
   /* background-color: #1E1E1E; */
   border-radius: 14px;
 }
 
 .buyer-info-top-part {
-  width: 600px;
+  width: 700px;
   height: 90px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: start;
 }
 
 .buyer-info-title
 {
-  font-size: 20px;
+  font-size: 25px;
   color: #FFFF;
-  /* width: 600px; */
-  width: 200px;
+  /* width: 700px; */
+  width: 260px;
   height: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: start;
   display: flex;
   /* align-items: center; */
@@ -355,12 +365,12 @@ export default {
 }
 
 .house, .apartment, .entrance, .floor {
-  width: 75px !important;
+  width: 77px !important;
 }
 
 .buyer-info-input {
   background-color: #1E1E1E;
-  width: 300px;
+  width: 400px;
   margin-bottom: 10px;
   margin-right: 10px;
   height: 30px;
@@ -370,7 +380,7 @@ export default {
 
 .street {
   background-color: #1E1E1E;
-  width: 300px;
+  width: 340px;
   margin-bottom: 10px;
   margin-right: 10px;
   height: 30px;
@@ -378,7 +388,7 @@ export default {
 
 .comment {
   background-color: #1E1E1E;
-  width: 590px;
+  width: 690px;
   margin-bottom: 10px;
   margin-right: 10px;
   height: 100px;
@@ -394,14 +404,14 @@ export default {
 }
 
 .promo {
-  width: 400px;
+  width: 500px;
   height: 50px;
 }
 
 .order-btn-container {
   display: flex;
   justify-content: flex-end;
-  width: 600px;
+  width: 700px;
 }
 
 .order-btn {
