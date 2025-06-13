@@ -1,5 +1,5 @@
 ```markdown
-# KUROSHIO - шаблон сайта японского ресторана на Vue
+# KUROSHIO - шаблон сайта японского ресторана на Vue (САЙТ НЕ АДАПТИВНЫЙ!)
 
 Vue 3, Vite, Vue Router, Vuex
 ```
